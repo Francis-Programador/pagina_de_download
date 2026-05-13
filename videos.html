@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos | SER TRADER SEM RÉ</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Atualize apenas os href="#" para os links reais de download e tutorial. -->
+
+  <div id="header"></div>
+
+<script>
+fetch("header.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
+  });
+</script>
+  <main>
+    <section class="section container page-intro">
+      <span class="eyebrow">Vídeos</span>
+      <h1>Tutoriais e playlists para traders avançados</h1>
+      <p>Vídeos organizados por categoria, com explicações práticas e estudos de caso.</p>
+    </section>
+
+    <section class="section container" id="searchArea">
+      <div class="section-title-row">
+        <div>
+          <h2>Categorias de vídeo</h2>
+          <p>Encontre tutoriais rápidos ou sequências completas.</p>
+        </div>
+      </div>
+      <div class="category-chips">
+        <button class="chip active" data-filter="all" onclick="setCategory('all')">Todos</button>
+        <button class="chip" data-filter="market" onclick="setCategory('market')">Mercado</button>
+        <button class="chip" data-filter="setup" onclick="setCategory('setup')">Setup</button>
+        <button class="chip" data-filter="playlist" onclick="setCategory('playlist')">Playlists</button>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="grid card-grid">
+        <article class="card" data-category="market">
+          <img src="assets/img/placeholder.svg" alt="Vídeo mercado" class="card-img">
+          <div class="card-body">
+            <span class="tag">Mercado</span>
+            <h3>Análise de Tendências</h3>
+            <p>Como interpretar fluxos e identificar oportunidades nas tendências.</p>
+            <ul class="card-meta">
+              <li>35 min</li>
+              <li>Vídeo completo</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Assistir</a>
+              <a href="#" class="btn btn-gold small">Abrir link</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="setup">
+          <img src="assets/img/placeholder.svg" alt="Vídeo setup" class="card-img">
+          <div class="card-body">
+            <span class="tag">Setup</span>
+            <h3>Configuração de indicadores</h3>
+            <p>Instalação e ajuste de indicadores para decisões mais rápidas e seguras.</p>
+            <ul class="card-meta">
+              <li>18 min</li>
+              <li>Guia prático</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Assistir</a>
+              <a href="#" class="btn btn-gold small">Abrir link</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="playlist">
+          <img src="assets/img/placeholder.svg" alt="Playlist" class="card-img">
+          <div class="card-body">
+            <span class="tag">Playlist</span>
+            <h3>Rotina diária de trading</h3>
+            <p>Série de vídeos com rotina de preparação, análise e revisão.</p>
+            <ul class="card-meta">
+              <li>6 vídeos</li>
+              <li>24/7 disponível</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Ver playlist</a>
+              <a href="#" class="btn btn-gold small">Abrir link</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark container featured-video">
+      <div class="glass-card video-wrapper">
+        <h2>Vídeo incorporado</h2>
+        <p>Assista ao tutorial de fluxo completo direto aqui.</p>
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI" title="Tutorial incorporado" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <button id="topButton" class="back-to-top" onclick="scrollToTop()" aria-label="Voltar ao topo">↑</button>
+
+<div id="footer"></div>
+
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  });
+</script>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planilhas | SER TRADER SEM RÉ</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div id="loader" class="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- HEADER -->
+  <div id="header"></div>
+
+  <script>
+    fetch("header.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("header").innerHTML = data;
+      });
+  </script>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="section container page-intro">
+      <span class="eyebrow">Gestão • Opções Binárias • Trading</span>
+      <h1>Ferramentas para controlo de banca e execução disciplinada</h1>
+      <p>Planilhas criadas para reduzir erros, controlar risco e melhorar consistência nas operações de opções binárias.</p>
+    </section>
+
+    <!-- FEATURE PRINCIPAL -->
+    <section class="section container feature-panel">
+      <div class="feature-grid">
+
+        <div>
+          <h2>Planilha de gestão para opções binárias</h2>
+
+          <p>
+            Sistema completo para controlo de banca, risco por operação e acompanhamento da performance real no mercado.
+          </p>
+
+          <p>
+            O foco é disciplina: <strong>evitar overtrading e proteger o capital em todas as fases</strong>.
+          </p>
+
+          <ul class="feature-list">
+            <li>Gestão automática de risco por operação</li>
+            <li>Controle de sequência de perdas e recuperação</li>
+            <li>Monitoramento de drawdown da banca</li>
+            <li>Relatório detalhado de performance</li>
+          </ul>
+
+          <a href="#" class="btn btn-gold">Baixar Planilha</a>
+        </div>
+
+        <div class="video-block glass-card">
+          <p class="label">Demonstração prática</p>
+
+          <iframe 
+            src="https://www.youtube.com/embed/VIDEO_ID_AQUI"
+            title="Gestão de risco - opções binárias"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FUNÇÕES -->
+    <section class="section container">
+
+      <div class="section-title-row">
+        <h2>Funções da ferramenta de trading</h2>
+        <p>Estrutura criada para controlo total da banca e melhoria da execução nas operações.</p>
+      </div>
+
+      <div class="grid card-grid">
+
+        <article class="mini-card">
+          <h3>Gestão de capital</h3>
+          <p>Define risco fixo por operação e protege a banca contra perdas desnecessárias.</p>
+        </article>
+
+        <article class="mini-card">
+          <h3>Análise de performance</h3>
+          <p>Mostra taxa de acerto, sequência de ganhos e evolução da conta.</p>
+        </article>
+
+        <article class="mini-card">
+          <h3>Registo de operações</h3>
+          <p>Organiza todas as entradas para identificar erros e melhorar decisões futuras.</p>
+        </article>
+
+        <article class="mini-card">
+          <h3>Compatibilidade total</h3>
+          <p>Funciona em Excel e Google Sheets sem necessidade de configuração avançada.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ATUALIZAÇÕES -->
+    <section class="section section-dark container update-panel">
+
+      <div class="glass-panel">
+        <h2>Atualizações do sistema de trading</h2>
+
+        <ul>
+          <li>Nova lógica de gestão de risco por sequência de perdas</li>
+          <li>Melhoria no cálculo de performance e resultados reais</li>
+          <li>Interface otimizada para leitura rápida dos dados</li>
+          <li>Correções gerais no sistema de análise</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- COMO USAR -->
+    <section class="section container howto-section">
+
+      <div class="section-title-row">
+        <h2>Como utilizar a planilha</h2>
+        <p>Passos simples para aplicar corretamente no teu trading diário.</p>
+      </div>
+
+      <div class="steps-grid">
+
+        <div class="step-card">
+          <span>1</span>
+          <h3>Registar operações</h3>
+          <p>Insere entradas, saídas e resultados de cada trade.</p>
+        </div>
+
+        <div class="step-card">
+          <span>2</span>
+          <h3>Definir risco</h3>
+          <p>Configura o valor de risco antes de operar no mercado.</p>
+        </div>
+
+        <div class="step-card">
+          <span>3</span>
+          <h3>Analisar dados</h3>
+          <p>Verifica desempenho e ajusta a estratégia com base nos resultados.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- OUTRAS PLANILHAS -->
+    <section class="section container">
+
+      <div class="section-title-row">
+        <h2>Outras ferramentas de gestão</h2>
+        <p>Modelos adicionais para organização e evolução no trading.</p>
+      </div>
+
+      <div class="grid card-grid">
+
+        <article class="card">
+          <img src="assets/img/placeholder.svg" class="card-img">
+          <div class="card-body">
+            <span class="tag">Planilha</span>
+            <h3>Diário de operações</h3>
+            <p>Registo completo para análise de erros e evolução do trader.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/img/placeholder.svg" class="card-img">
+          <div class="card-body">
+            <span class="tag">Planilha</span>
+            <h3>Risco vs retorno</h3>
+            <p>Estrutura para equilíbrio entre lucro, perda e consistência.</p>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- TOP -->
+  <button id="topButton" class="back-to-top" onclick="scrollToTop()">↑</button>
+
+  <!-- FOOTER -->
+  <div id="footer"></div>
+
+  <script>
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("footer").innerHTML = data;
+      });
+  </script>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>

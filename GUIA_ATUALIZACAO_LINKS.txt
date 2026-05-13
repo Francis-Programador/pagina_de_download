@@ -1,0 +1,630 @@
+================================================================================
+                    GUIA DE ATUALIZAÇÃO DE LINKS
+                       SER TRADER SEM RÉ
+================================================================================
+
+Este arquivo explica EXATAMENTE onde e como atualizar todos os links do site.
+
+================================================================================
+1. PLANILHAS (planilhas.html)
+================================================================================
+
+Local 1: Download da planilha
+────────────────────────────────
+Procure por:
+  <a href="#" class="btn btn-gold">Download Grátis</a>
+
+Mude para (exemplo):
+  <a href="https://drive.google.com/uc?export=download&id=1ABC123DEF456" class="btn btn-gold">Download Grátis</a>
+
+Local 2: Vídeo Tutorial (YouTube)
+─────────────────────────────────
+Procure por:
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI"
+
+Mude para (exemplo):
+  <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+
+COMO PEGAR O ID DO YOUTUBE:
+  - Acesse: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  - O ID é tudo depois de "watch?v=" = dQw4w9WgXcQ
+  - Use este ID no link embed
+
+Local 3: Imagem do card (opcional)
+──────────────────────────────────
+Procure por:
+  <img src="assets/img/placeholder.svg" alt="..." class="card-img">
+
+Mude para (exemplo):
+  <img src="assets/img/planilha-screenshot.jpg" alt="..." class="card-img">
+
+OU use link online:
+  <img src="https://drive.google.com/uc?export=view&id=SEU_ID_AQUI" alt="..." class="card-img">
+
+================================================================================
+2. SCRIPTS (scripts.html)
+================================================================================
+
+Local 1: Download do script
+───────────────────────────
+Procure por:
+  <a href="#" class="btn btn-outline small">Download</a>
+
+Mude para (exemplo):
+  <a href="https://seu-servidor.com/detector-tendencia-v1.5.ex5" class="btn btn-outline small">Download</a>
+
+Local 2: Link do tutorial
+─────────────────────────
+Procure por:
+  <a href="#" class="btn btn-gold small">Tutorial</a>
+
+Mude para (exemplo):
+  <a href="https://seusite.com/tutorial-scripts" class="btn btn-gold small">Tutorial</a>
+
+Local 3: Vídeo de instalação geral
+──────────────────────────────────
+Procure por:
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI" title="Instalação de scripts"
+
+Mude para (exemplo):
+  <iframe src="https://www.youtube.com/embed/ABC123XYZ789" title="Instalação de scripts"
+
+Local 4: Imagem do card
+───────────────────────
+Procure por:
+  <img src="assets/img/placeholder.svg" alt="..." class="card-img">
+
+Mude para (exemplo):
+  <img src="assets/img/script-screenshot.jpg" alt="..." class="card-img">
+
+================================================================================
+3. PDFs (pdfs.html)
+================================================================================
+
+Local 1: Download do PDF
+────────────────────────
+Procure por:
+  <a href="#" class="btn btn-outline small">Download</a>
+
+Mude para (exemplo):
+  <a href="https://drive.google.com/uc?export=download&id=1PDF123456ABC" class="btn btn-outline small">Download</a>
+
+Local 2: Link de explicação/visualização
+────────────────────────────────────────
+Procure por:
+  <a href="#" class="btn btn-gold small">Ver explicação</a>
+
+Mude para (exemplo):
+  <a href="https://seusite.com/explicacao-pdf" class="btn btn-gold small">Ver explicação</a>
+
+Local 3: Imagem do card
+───────────────────────
+Procure por:
+  <img src="assets/img/placeholder.svg" alt="..." class="card-img">
+
+Mude para (exemplo):
+  <img src="assets/img/pdf-preview.jpg" alt="..." class="card-img">
+
+================================================================================
+4. VÍDEOS (videos.html)
+================================================================================
+
+Local 1: Link para assistir
+────────────────────────────
+Procure por:
+  <a href="#" class="btn btn-outline small">Assistir</a>
+
+Mude para (exemplo):
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline small">Assistir</a>
+
+Local 2: Link alternativo/abrir
+────────────────────────────────
+Procure por:
+  <a href="#" class="btn btn-gold small">Abrir link</a>
+
+Mude para (exemplo):
+  <a href="https://www.youtube.com/playlist?list=PLxxxxxx" class="btn btn-gold small">Abrir link</a>
+
+Local 3: Imagem do card
+───────────────────────
+Procure por:
+  <img src="assets/img/placeholder.svg" alt="..." class="card-img">
+
+Mude para (exemplo):
+  <img src="assets/img/video-thumbnail.jpg" alt="..." class="card-img">
+
+================================================================================
+5. HOME / DOWNLOADS (index.html e downloads.html)
+================================================================================
+
+Local 1: Downloads de cards
+────────────────────────────
+Procure por:
+  <a href="#" class="btn btn-outline small">Download</a>
+
+Mude para (exemplo):
+  <a href="https://seu-servidor.com/arquivo.zip" class="btn btn-outline small">Download</a>
+
+Local 2: Links de tutorial/ver vídeo
+────────────────────────────────────
+Procure por:
+  <a href="#" class="btn btn-gold small">Tutorial</a>
+  <a href="#" class="btn btn-gold small">Ver vídeo</a>
+
+Mude para (exemplo):
+  <a href="https://seu-link-tutorial.com" class="btn btn-gold small">Tutorial</a>
+
+Local 3: Imagens dos cards
+──────────────────────────
+Procure por:
+  <img src="assets/img/placeholder.svg" alt="..." class="card-img">
+
+Mude para (exemplo):
+  <img src="assets/img/recurso-screenshot.jpg" alt="..." class="card-img">
+
+================================================================================
+OPÇÕES DE ARMAZENAMENTO DE ARQUIVOS E IMAGENS
+================================================================================
+
+GOOGLE DRIVE (Recomendado - Gratuito)
+──────────────────────────────────────
+1. Acesse: https://drive.google.com
+2. Envie o arquivo (planilha, script, PDF, etc)
+3. Clique com botão direito > Compartilhar
+4. Configure para "Qualquer pessoa com o link pode visualizar"
+5. Copie o ID da URL (entre /d/ e /view)
+
+Exemplo de ID: 1ABC123DEF456GHI789JKL
+
+Use assim:
+Para DOWNLOAD:
+  https://drive.google.com/uc?export=download&id=SEU_ID_AQUI
+
+Para VISUALIZAR/IMAGEM:
+  https://drive.google.com/uc?export=view&id=SEU_ID_AQUI
+
+YOUTUBE (Para vídeos - Gratuito)
+─────────────────────────────────
+1. Acesse: https://youtube.com
+2. Envie seu vídeo (Público ou Não listado)
+3. Copie o ID do vídeo (após watch?v=)
+
+Exemplo: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ID: dQw4w9WgXcQ
+
+Use assim em links diretos:
+  https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+Use assim em iframes (embeds):
+  <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+
+ARMAZENAMENTO LOCAL (Sem internet)
+───────────────────────────────────
+Coloque arquivos na pasta: assets/img/
+
+Exemplo:
+  assets/img/minha-imagem.jpg
+  assets/img/print-planilha.png
+
+Use assim:
+  <img src="assets/img/minha-imagem.jpg" alt="Descrição">
+
+Para downloads locais - coloque em uma pasta e use:
+  <a href="assets/files/meu-arquivo.zip">Download</a>
+
+OUTRO SERVIDOR / SITE PRÓPRIO
+──────────────────────────────
+Se você tem um servidor ou site:
+  https://seusite.com/downloads/arquivo.zip
+  https://seusite.com/images/imagem.jpg
+
+================================================================================
+PASSO A PASSO PARA ATUALIZAR (Método Simples)
+================================================================================
+
+1. Abra o arquivo HTML que quer editar (ex: planilhas.html)
+
+2. Use Ctrl+H para LOCALIZAR E SUBSTITUIR
+
+3. Na caixa "Localizar", digite:
+   href="#"
+
+4. Na caixa "Substituir por", coloque o seu novo link:
+   href="https://seu-link-aqui.com"
+
+5. Clique "Substituir" (cuidado para não substituir acidentalmente)
+
+OU faça manualmente:
+   - Procure por href="#"
+   - Clique no local
+   - Apague o #
+   - Digite seu link
+   - Salve (Ctrl+S)
+
+================================================================================
+CHECKLIST FINAL
+================================================================================
+
+Antes de colocar o site online, verifique:
+
+☐ Todos os links href="#" foram atualizados?
+☐ Os links funcionam quando você clica?
+☐ As imagens aparecem corretamente?
+☐ Os vídeos YouTube estão carregando?
+☐ Os PDFs conseguem ser baixados?
+☐ Os scripts conseguem ser baixados?
+☐ O site funciona em celular (teste com F12)?
+☐ Todos os botões "Download", "Tutorial", "Assistir" apontam para URLs válidas?
+
+================================================================================
+DÚVIDAS COMUNS
+================================================================================
+
+P: Posso usar links de encurtador (bit.ly, tinyurl)?
+R: Sim! Use assim:
+   <a href="https://bit.ly/seu-link-encurtado" class="btn btn-gold">Download</a>
+
+P: Preciso adicionar mais cards?
+R: Sim! Copie um card inteiro (<article class="card">...</article>) e cole abaixo.
+   Depois atualize o título, descrição e links.
+
+P: Como fazer uma playlist do YouTube aparecer?
+R: Use o ID da playlist:
+   https://www.youtube.com/playlist?list=PLxxxxxx
+   
+   Ou use no iframe (menos comum):
+   <iframe src="https://www.youtube.com/embed/videoseries?list=PLxxxxxx"
+
+P: Posso usar links do Dropbox?
+R: Sim! Mas use o formato direto:
+   https://dl.dropboxusercontent.com/...?dl=1
+
+P: E se eu quiser salvar tudo localmente?
+R: Crie pastas na pasta do projeto:
+   - assets/files/     (para downloads)
+   - assets/img/       (para imagens)
+   
+   Depois use:
+   <a href="assets/files/meu-arquivo.zip">Download</a>
+   <img src="assets/img/minha-imagem.jpg">
+
+================================================================================
+COMO ADICIONAR MAIS CARDS (PDFs, Scripts, Vídeos)
+================================================================================
+
+IMPORTANTE: Antes de começar, sempre salve uma cópia do arquivo HTML!
+
+OPÇÃO 1: ADICIONAR MAIS PDFs (pdfs.html)
+─────────────────────────────────────────
+
+1. Abra o arquivo: pdfs.html
+
+2. Procure pela seção de cards (procure por <article class="card")
+
+3. Encontre UM DOS CARDS EXISTENTES, por exemplo:
+
+   <article class="card" data-category="pdf">
+     <img src="assets/img/placeholder.svg" alt="PDF estratégias" class="card-img">
+     <div class="card-body">
+       <span class="tag">PDF</span>
+       <h3>Estratégias de Momentum</h3>
+       <p>Análise detalhada de entradas com rampas de alta e canais.</p>
+       <ul class="card-meta">
+         <li>32 páginas</li>
+         <li>Atual</li>
+       </ul>
+       <div class="card-actions">
+         <a href="#" class="btn btn-outline small">Download</a>
+         <a href="#" class="btn btn-gold small">Ver explicação</a>
+       </div>
+     </div>
+   </article>
+
+4. COPIE ESTE CARD INTEIRO (do <article até </article>)
+
+5. Cole LOGO ABAIXO de outro card (antes do </div> que fecha o grid)
+
+6. MUDE APENAS:
+   ✎ <h3>NOVO TÍTULO DO PDF</h3>
+   ✎ <p>Nova descrição do PDF aqui</p>
+   ✎ <li>XX páginas</li>
+   ✎ <li>Status (Atual, Novo, etc)</li>
+   ✎ href="#" → href="seu-link-do-pdf"
+
+EXEMPLO PRÁTICO:
+─────────────────
+Original:
+  <h3>Estratégias de Momentum</h3>
+
+Novo:
+  <h3>Análise de Volatilidade</h3>
+
+Original:
+  <p>Análise detalhada de entradas com rampas de alta e canais.</p>
+
+Novo:
+  <p>Como calcular volatilidade e usar em suas operações.</p>
+
+Original:
+  <li>32 páginas</li>
+
+Novo:
+  <li>28 páginas</li>
+
+Original:
+  <a href="#" class="btn btn-outline small">Download</a>
+
+Novo:
+  <a href="https://drive.google.com/uc?export=download&id=SEU_ID_PDF" class="btn btn-outline small">Download</a>
+
+OPÇÃO 2: ADICIONAR MAIS SCRIPTS (scripts.html)
+──────────────────────────────────────────────
+
+1. Abra o arquivo: scripts.html
+
+2. Procure por um CARD EXISTENTE (é um pouco maior, tem detail-block):
+
+   <article class="card" data-category="script">
+     <img src="assets/img/placeholder.svg" alt="Script de tendência" class="card-img">
+     <div class="card-body">
+       <span class="tag">Script</span>
+       <h3>Detector de Tendência</h3>
+       <p>Identifica tendências de alta e baixa com sinais configuráveis para entrada.</p>
+       <ul class="card-meta">
+         <li>Compatível com MT5</li>
+         <li>v1.5</li>
+       </ul>
+       <div class="detail-block">
+         <strong>Changelog</strong>
+         <p>Atualização com filtro de volatilidade e ajuste dinâmico de stop.</p>
+       </div>
+       <div class="detail-block">
+         <strong>Instruções</strong>
+         <p>Instale no MetaTrader e importe o arquivo em um gráfico ativo.</p>
+       </div>
+       <div class="card-actions">
+         <a href="#" class="btn btn-outline small">Download</a>
+         <a href="#" class="btn btn-gold small">Tutorial</a>
+       </div>
+     </div>
+   </article>
+
+3. COPIE TODO O CARD
+
+4. Cole ABAIXO de outro script (dentro do <div class="grid card-grid">)
+
+5. MUDE:
+   ✎ <h3>NOME DO SEU NOVO SCRIPT</h3>
+   ✎ <p>Descrição do script</p>
+   ✎ <li>Compatível com PLATAFORMA</li>
+   ✎ <li>vX.X</li> (versão)
+   ✎ <strong>Changelog</strong> - <p>O que mudou</p>
+   ✎ <strong>Instruções</strong> - <p>Como usar</p>
+   ✎ href="#" nos dois botões
+
+EXEMPLO PARA SCRIPT:
+────────────────────
+Original:
+  <h3>Detector de Tendência</h3>
+  <p>Identifica tendências de alta e baixa com sinais configuráveis para entrada.</p>
+
+Novo:
+  <h3>Entrada por Bandas de Bollinger</h3>
+  <p>Script que detecta rompimento de bandas e confirma com volume.</p>
+
+Original:
+  <li>Compatível com MT5</li>
+
+Novo:
+  <li>Compatível com TradingView</li>
+
+Original:
+  <li>v1.5</li>
+
+Novo:
+  <li>v1.0</li>
+
+Original:
+  <p>Atualização com filtro de volatilidade e ajuste dinâmico de stop.</p>
+
+Novo:
+  <p>Novo filtro de mercado lateral e proteção contra falsas entradas.</p>
+
+OPÇÃO 3: ADICIONAR MAIS VÍDEOS (videos.html)
+────────────────────────────────────────────
+
+1. Abra o arquivo: videos.html
+
+2. Procure por um CARD EXISTENTE:
+
+   <article class="card" data-category="market">
+     <img src="assets/img/placeholder.svg" alt="Vídeo mercado" class="card-img">
+     <div class="card-body">
+       <span class="tag">Mercado</span>
+       <h3>Análise de Tendências</h3>
+       <p>Como interpretar fluxos e identificar oportunidades nas tendências.</p>
+       <ul class="card-meta">
+         <li>35 min</li>
+         <li>Vídeo completo</li>
+       </ul>
+       <div class="card-actions">
+         <a href="#" class="btn btn-outline small">Assistir</a>
+         <a href="#" class="btn btn-gold small">Abrir link</a>
+       </div>
+     </div>
+   </article>
+
+3. COPIE O CARD
+
+4. Cole DENTRO do <div class="grid card-grid">
+
+5. ALTERE:
+   ✎ data-category="market" → Pode ser: market, setup, ou playlist
+   ✎ <span class="tag">Mercado</span> → Mude para: Mercado, Setup ou Playlist
+   ✎ <h3>Título do vídeo</h3>
+   ✎ <p>Descrição do vídeo</p>
+   ✎ <li>XX min</li> (duração)
+   ✎ <li>Tipo (Vídeo completo, Série, Playlist)</li>
+   ✎ href="#" para links de vídeo
+
+IMPORTANTE - CATEGORIAS DE VÍDEO:
+──────────────────────────────────
+data-category="market"   → Tag: Mercado
+data-category="setup"    → Tag: Setup
+data-category="playlist" → Tag: Playlist
+
+Escolha UMA das três categorias para cada novo vídeo!
+
+EXEMPLO PARA VÍDEO:
+───────────────────
+Original (market):
+  <article class="card" data-category="market">
+    <span class="tag">Mercado</span>
+    <h3>Análise de Tendências</h3>
+
+Novo (setup):
+  <article class="card" data-category="setup">
+    <span class="tag">Setup</span>
+    <h3>Como configurar seu gráfico</h3>
+
+Original:
+  <p>Como interpretar fluxos e identificar oportunidades nas tendências.</p>
+
+Novo:
+  <p>Passo a passo para configurar indicadores e timeframes ideais.</p>
+
+Original:
+  <li>35 min</li>
+
+Novo:
+  <li>22 min</li>
+
+Original:
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline small">Assistir</a>
+
+Novo:
+  <a href="https://www.youtube.com/watch?v=ABC123XYZ789" class="btn btn-outline small">Assistir</a>
+
+OPÇÃO 4: ADICIONAR PLANILHAS (planilhas.html)
+──────────────────────────────────────────────
+
+Este arquivo é especial - tem um card de destaque no topo.
+
+Para adicionar MAIS PLANILHAS abaixo do existente:
+
+1. Abra planilhas.html
+
+2. Role até encontrar o bloco com os 2 cards de planilhas (procure por "Diário de Trades")
+
+3. Encontre ESTE CARD:
+
+   <article class="card" data-category="planilha">
+     <img src="assets/img/placeholder.svg" alt="..." class="card-img">
+     <div class="card-body">
+       <span class="tag">Planilha</span>
+       <h3>Diário de Trades</h3>
+       <p>Registre e acompanhe cada operação com histórico completo.</p>
+       <ul class="card-meta">
+         <li>v1.8</li>
+         <li>16 KB</li>
+       </ul>
+       <div class="card-actions">
+         <a href="#" class="btn btn-outline small">Download</a>
+         <a href="#" class="btn btn-gold small">Tutorial</a>
+       </div>
+     </div>
+   </article>
+
+4. COPIE E COLE ABAIXO
+
+5. MUDE:
+   ✎ <h3>Nome da planilha</h3>
+   ✎ <p>Descrição da planilha</p>
+   ✎ <li>vX.X</li> (versão)
+   ✎ <li>XX KB</li> (tamanho)
+   ✎ href="#" para links de download/tutorial
+
+================================================================================
+PASSO A PASSO VISUAL
+================================================================================
+
+RESUMO DO PROCESSO:
+
+1. Abra o arquivo HTML (pdfs.html, scripts.html, etc)
+2. Procure por <article class="card">
+3. COPIE todo o card (do <article até </article>)
+4. Cole LOGO ABAIXO (sempre DENTRO do <div class="grid card-grid">)
+5. Mude APENAS:
+   - Título (<h3>)
+   - Descrição (<p>)
+   - Metadados (<li>)
+   - Links (href="#" → href="novo-link")
+   - Categoria (data-category)
+   - Tag (<span class="tag">)
+6. Salve (Ctrl+S)
+7. Abra no navegador para testar (F5 para recarregar)
+
+================================================================================
+DÚVIDAS EXTRAS
+================================================================================
+
+P: Vou bagunçar o site se copiar e colar?
+R: NÃO! Desde que você copie a estrutura INTEIRA (do <article até </article>),
+   será exatamente igual. Só mude o conteúdo.
+
+P: Quantos cards posso adicionar?
+R: Quantos quiser! O site se ajusta automaticamente.
+   Em desktop: 3 colunas
+   Em tablet: 2 colunas  
+   Em celular: 1 coluna
+
+P: Posso reordenar os cards?
+R: Sim! Corte e cole em outra posição. O primeiro que aparecer no código
+   aparecerá primeiro no site.
+
+P: E se eu quiser remover um card?
+R: Procure pelo card todo (<article class="card">...</article>) e DELETE.
+   Cuidado para não deixar código quebrado.
+
+P: Como testar antes de publicar?
+R: 1. Salve o arquivo (Ctrl+S)
+   2. No navegador, aperte F5 ou Ctrl+Shift+Delete
+   3. Verifique se o novo card aparece
+   4. Clique nos botões para testar links
+
+P: Os links de iframes funcionam igual?
+R: Sim! Use a mesma estrutura, só mude o ID:
+   Antes: <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI"
+   Depois: <iframe src="https://www.youtube.com/embed/SEU_ID_NOVO"
+
+P: Posso usar a mesma imagem em vários cards?
+R: Sim! Use o mesmo caminho:
+   <img src="assets/img/placeholder.svg">
+   Todos usarão a mesma imagem.
+
+P: E se eu quiser imagens diferentes?
+R: Coloque as imagens na pasta assets/img/ e use:
+   <img src="assets/img/sua-imagem.jpg">
+
+================================================================================
+TESTE FINAL APÓS ADICIONAR
+================================================================================
+
+Depois de adicionar um novo card:
+
+☐ O card aparece no site?
+☐ Todos os textos estão corretos?
+☐ Os botões funcionam?
+☐ As imagens aparecem (ou o placeholder.svg)?
+☐ O layout continua alinhado (3 colunas no desktop)?
+☐ Funciona bem no celular?
+☐ Não há erros no console (F12 > Console)?
+
+Se algo der errado:
+1. Aperte Ctrl+Z (desfazer)
+2. Copie o código direto do navegador (inspecionar elemento)
+3. Cole novamente e teste
+
+================================================================================
+                      Atualizado em: 13 de maio de 2026
+================================================================================

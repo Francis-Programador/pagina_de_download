@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scripts | SER TRADER SEM RÉ</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Atualize apenas os href="#" para os links reais de download e tutorial. -->
+
+  <div id="header"></div>
+
+<script>
+fetch("header.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
+  });
+</script>
+
+  <main>
+    <section class="section container page-intro">
+      <span class="eyebrow">Scripts</span>
+      <h1>Soluções automatizadas para trading</h1>
+      <p>Scripts desenvolvidos para execução, análise e compatibilidade com plataformas populares.</p>
+    </section>
+
+    <section class="section container">
+      <div class="section-title-row">
+        <div>
+          <h2>Scripts em destaque</h2>
+          <p>Ferramentas com suporte a cada etapa do seu fluxo operacional.</p>
+        </div>
+        <input id="searchInput" type="search" placeholder="Pesquisar scripts..." oninput="filterCards()">
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="grid card-grid">
+        <article class="card" data-category="script">
+          <img src="assets/img/placeholder.svg" alt="Script de tendência" class="card-img">
+          <div class="card-body">
+            <span class="tag">Script</span>
+            <h3>Detector de Tendência</h3>
+            <p>Identifica tendências de alta e baixa com sinais configuráveis para entrada.</p>
+            <ul class="card-meta">
+              <li>Compatível com MT5</li>
+              <li>v1.5</li>
+            </ul>
+            <div class="detail-block">
+              <strong>Changelog</strong>
+              <p>Atualização com filtro de volatilidade e ajuste dinâmico de stop.</p>
+            </div>
+            <div class="detail-block">
+              <strong>Instruções</strong>
+              <p>Instale no MetaTrader e importe o arquivo em um gráfico ativo.</p>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="#" class="btn btn-gold small">Tutorial</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="script">
+          <img src="assets/img/placeholder.svg" alt="Script de reversão" class="card-img">
+          <div class="card-body">
+            <span class="tag">Script</span>
+            <h3>Reversão Inteligente</h3>
+            <p>Lógica de entrada em reversões com confirmação de volume.</p>
+            <ul class="card-meta">
+              <li>Compatível com TradingView</li>
+              <li>v2.0</li>
+            </ul>
+            <div class="detail-block">
+              <strong>Changelog</strong>
+              <p>Melhor desempenho em mercados laterais e proteção contra falsas entradas.</p>
+            </div>
+            <div class="detail-block">
+              <strong>Instruções</strong>
+              <p>Adicione ao gráfico e ajuste os períodos de indicadores conforme sua estratégia.</p>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="#" class="btn btn-gold small">Tutorial</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark container video-tutorials">
+      <div class="section-title-row">
+        <h2>Tutorial geral de instalação</h2>
+        <p>Assista como instalar pela primeira vez e deixá-lo pronto para uso.</p>
+      </div>
+      <div class="video-wrapper glass-card">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI" title="Instalação de scripts" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <button id="topButton" class="back-to-top" onclick="scrollToTop()" aria-label="Voltar ao topo">↑</button>
+
+<div id="footer"></div>
+
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  });
+</script>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

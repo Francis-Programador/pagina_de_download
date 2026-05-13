@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDFs | SER TRADER SEM RÉ</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Atualize apenas os href="#" para os links reais de download e tutorial. -->
+
+  <div id="header"></div>
+
+<script>
+fetch("header.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("header").innerHTML = data;
+  });
+</script>
+  <main>
+    <section class="section container page-intro">
+      <span class="eyebrow">PDFs</span>
+      <h1>Biblioteca de guias e referências</h1>
+      <p>Documentos organizados para estudo, estratégia e análise de mercado.</p>
+    </section>
+
+    <section class="section container">
+      <div class="section-title-row">
+        <div>
+          <h2>Documentos disponíveis</h2>
+          <p>Selecione o PDF ideal para estudo de trading, análise ou programação.</p>
+        </div>
+        <input id="searchInput" type="search" placeholder="Pesquisar PDFs..." oninput="filterCards()">
+      </div>
+      <div class="grid card-grid">
+        <article class="card" data-category="pdf">
+          <img src="assets/img/placeholder.svg" alt="PDF estratégias" class="card-img">
+          <div class="card-body">
+            <span class="tag">PDF</span>
+            <h3>Estratégias de Momentum</h3>
+            <p>Análise detalhada de entradas com rampas de alta e canais.</p>
+            <ul class="card-meta">
+              <li>32 páginas</li>
+              <li>Atual</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="#" class="btn btn-gold small">Ver explicação</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="pdf">
+          <img src="assets/img/placeholder.svg" alt="PDF indicadores" class="card-img">
+          <div class="card-body">
+            <span class="tag">PDF</span>
+            <h3>Indicadores Personalizados</h3>
+            <p>Guia para construção e adaptação de indicadores técnicos.</p>
+            <ul class="card-meta">
+              <li>40 páginas</li>
+              <li>Inclui exemplos</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="#" class="btn btn-gold small">Tutorial</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="pdf">
+          <img src="assets/img/placeholder.svg" alt="PDF backtest" class="card-img">
+          <div class="card-body">
+            <span class="tag">PDF</span>
+            <h3>Backtest Profissional</h3>
+            <p>Metodologias para validar estratégias e evitar viés de dados.</p>
+            <ul class="card-meta">
+              <li>24 páginas</li>
+              <li>Passo a passo</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="videos.html" class="btn btn-gold small">Ver insights</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button id="topButton" class="back-to-top" onclick="scrollToTop()" aria-label="Voltar ao topo">↑</button>
+
+<div id="footer"></div>
+
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  });
+</script>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

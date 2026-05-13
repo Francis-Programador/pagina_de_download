@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Downloads | SER TRADER SEM RÉ</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Atualize apenas os href="#" para os links reais de download e tutorial. -->
+
+  <header class="topbar">
+    <div class="container header-inner">
+      <a href="index.html" class="brand"><img src="assets/img/logo.png" alt="Logo" class="logo-header"> SER TRADER SEM RÉ</a>
+      <nav class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="planilhas.html">Planilhas</a>
+        <a href="scripts.html">Scripts</a>
+        <a href="pdfs.html">PDFs</a>
+        <a href="videos.html">Vídeos</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container page-intro">
+      <span class="eyebrow">Downloads</span>
+      <h1>Central de arquivos e recursos</h1>
+      <p>Encontre todas as ferramentas do portal organizadas por tipo, com acesso rápido e versão atualizada.</p>
+    </section>
+
+    <section class="section container" id="searchArea">
+      <div class="section-title-row">
+        <div>
+          <h2>Filtrar conteúdos</h2>
+          <p>Pesquisar por nome, descrição ou tipo de recurso.</p>
+        </div>
+        <input id="searchInput" type="search" placeholder="Pesquisar arquivos..." oninput="filterCards()">
+      </div>
+      <div class="category-chips" id="categoryChips">
+        <button class="chip active" data-filter="all" onclick="setCategory('all')">Todos</button>
+        <button class="chip" data-filter="planilha" onclick="setCategory('planilha')">Planilhas</button>
+        <button class="chip" data-filter="script" onclick="setCategory('script')">Scripts</button>
+        <button class="chip" data-filter="pdf" onclick="setCategory('pdf')">PDFs</button>
+        <button class="chip" data-filter="video" onclick="setCategory('video')">Vídeos</button>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-title-row">
+        <h2>Arquivos Disponíveis</h2>
+        <p>Todos os conteúdos prontos para baixar e adaptar às suas rotinas.</p>
+      </div>
+      <div class="grid card-grid">
+        <article class="card" data-category="planilha">
+          <img src="assets/img/placeholder.svg" alt="Planilha de lucro" class="card-img">
+          <div class="card-body">
+            <span class="tag">Planilha</span>
+            <h3>Controle de Portfólio</h3>
+            <p>Planilha de gerenciamento de capital com alertas de exposição e risco.</p>
+            <ul class="card-meta">
+              <li>v2.5</li>
+              <li>24 KB</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="#" class="btn btn-gold small">Link</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="script">
+          <img src="assets/img/placeholder.svg" alt="Script automatizado" class="card-img">
+          <div class="card-body">
+            <span class="tag">Script</span>
+            <h3>Entrada por Bandas</h3>
+            <p>Script com lógica de bandas de preço, stop dinâmico e gestão de lote.</p>
+            <ul class="card-meta">
+              <li>MT5 / Python</li>
+              <li>v1.7</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="#" class="btn btn-gold small">Link</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="pdf">
+          <img src="assets/img/placeholder.svg" alt="Manual PDF" class="card-img">
+          <div class="card-body">
+            <span class="tag">PDF</span>
+            <h3>Estratégias de High Frequency</h3>
+            <p>Guia técnico com definições e estudos para traders avançados.</p>
+            <ul class="card-meta">
+              <li>48 páginas</li>
+              <li>Tempo de leitura</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline small">Download</a>
+              <a href="#" class="btn btn-gold small">Link</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-category="video">
+          <img src="assets/img/placeholder.svg" alt="Canal de vídeos" class="card-img">
+          <div class="card-body">
+            <span class="tag">Vídeo</span>
+            <h3>Playlist de Operações Reais</h3>
+            <p>Sequência de aulas que explicam setup, entradas e análise pós-trade.</p>
+            <ul class="card-meta">
+              <li>6 vídeos</li>
+              <li>Full HD</li>
+            </ul>
+            <div class="card-actions">
+              <a href="videos.html" class="btn btn-gold small">Assistir</a>
+              <a href="#" class="btn btn-outline small">Playlist</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+   <section class="section section-dark container updates-panel">
+  <div class="glass-panel">
+    <h2>Atualizações do sistema de trading</h2>
+    <p>O portal está em evolução contínua com foco em gestão de risco, automação de entradas e melhoria da precisão nas operações de opções binárias.</p>
+
+    <ul>
+      <li>Nova versão da planilha de gestão com controle de sequência de perdas e proteção de banca</li>
+      <li>Script de sinais aprimorado com leitura de tendência e confirmação de vela</li>
+      <li>Biblioteca de estratégias reais usadas em operações de curto prazo</li>
+      <li>Novos vídeos focados em disciplina, gestão emocional e execução de entradas</li>
+    </ul>
+  </div>
+</section>
+  </main>
+
+  <button id="topButton" class="back-to-top" onclick="scrollToTop()" aria-label="Voltar ao topo">↑</button>
+
+<div id="footer"></div>
+
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  });
+</script>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
